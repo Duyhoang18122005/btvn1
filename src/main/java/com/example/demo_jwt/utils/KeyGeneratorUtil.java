@@ -42,7 +42,7 @@ public class KeyGeneratorUtil {
             fos.write(privateKeyPEM.getBytes());
         }
 
-        
+
         File targetDirectory = new File("target/classes/certs");
         if (!targetDirectory.exists()) {
             targetDirectory.mkdirs();
